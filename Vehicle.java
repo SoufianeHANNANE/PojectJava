@@ -18,25 +18,6 @@ public abstract class Vehicle {
 	}
 	
 	
-	public Vehicle(String brand){
-		this.brand = brand;
-		this.kilometers = 100;
-	}
-	
-	public Vehicle(int kilometers){
-		this.brand = "amine";
-		this.kilometers = kilometers;
-	}
-	
-	
-	public Vehicle(String brand){
-		this.brand = brand;
-	}
-	
-	public Vehicle(String kilometers){
-		this.kilometers = kilometers;
-	}
-	
 	// accesseurs et mutateurs 
 	 
     public String getbrand() {  
